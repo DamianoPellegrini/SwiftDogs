@@ -14,6 +14,17 @@
 		AE3C23C228E736B100A68693 /* DogsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3C23C128E736B100A68693 /* DogsTests.swift */; };
 		AE3C23CC28E736B100A68693 /* DogsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3C23CB28E736B100A68693 /* DogsUITests.swift */; };
 		AE3C23CE28E736B100A68693 /* DogsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3C23CD28E736B100A68693 /* DogsUITestsLaunchTests.swift */; };
+		AE3C23DB28E73D4A00A68693 /* RandomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3C23DA28E73D4A00A68693 /* RandomView.swift */; };
+		AE3C23DD28E743BD00A68693 /* BreedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3C23DC28E743BD00A68693 /* BreedsView.swift */; };
+		AE4FF6D728E98DD400704B7F /* DogsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4FF6D628E98DD400704B7F /* DogsApi.swift */; };
+		AE4FF6DA28E9E45300704B7F /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = AE4FF6D928E9E45300704B7F /* Collections */; };
+		AE4FF6DC28E9E45300704B7F /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = AE4FF6DB28E9E45300704B7F /* DequeModule */; };
+		AE4FF6DE28E9E45300704B7F /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = AE4FF6DD28E9E45300704B7F /* OrderedCollections */; };
+		AE4FF6E028E9E71400704B7F /* AsyncLoadingPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4FF6DF28E9E71400704B7F /* AsyncLoadingPhase.swift */; };
+		AE4FF6E228E9EA5900704B7F /* ImagesGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4FF6E128E9EA5900704B7F /* ImagesGrid.swift */; };
+		AE4FF6E628E9F7E100704B7F /* DogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4FF6E528E9F7E100704B7F /* DogsView.swift */; };
+		AE4FF6E828EA0AE400704B7F /* GPSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4FF6E728EA0AE400704B7F /* GPSView.swift */; };
+		AE4FF6EA28EA111800704B7F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4FF6E928EA111800704B7F /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +56,14 @@
 		AE3C23C728E736B100A68693 /* DogsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3C23CB28E736B100A68693 /* DogsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsUITests.swift; sourceTree = "<group>"; };
 		AE3C23CD28E736B100A68693 /* DogsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AE3C23DA28E73D4A00A68693 /* RandomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomView.swift; sourceTree = "<group>"; };
+		AE3C23DC28E743BD00A68693 /* BreedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsView.swift; sourceTree = "<group>"; };
+		AE4FF6D628E98DD400704B7F /* DogsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsApi.swift; sourceTree = "<group>"; };
+		AE4FF6DF28E9E71400704B7F /* AsyncLoadingPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLoadingPhase.swift; sourceTree = "<group>"; };
+		AE4FF6E128E9EA5900704B7F /* ImagesGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesGrid.swift; sourceTree = "<group>"; };
+		AE4FF6E528E9F7E100704B7F /* DogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsView.swift; sourceTree = "<group>"; };
+		AE4FF6E728EA0AE400704B7F /* GPSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSView.swift; sourceTree = "<group>"; };
+		AE4FF6E928EA111800704B7F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE4FF6DA28E9E45300704B7F /* Collections in Frameworks */,
+				AE4FF6DC28E9E45300704B7F /* DequeModule in Frameworks */,
+				AE4FF6DE28E9E45300704B7F /* OrderedCollections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +117,19 @@
 		AE3C23AE28E736B000A68693 /* Dogs */ = {
 			isa = PBXGroup;
 			children = (
+				AE4FF6D628E98DD400704B7F /* DogsApi.swift */,
 				AE3C23AF28E736B000A68693 /* DogsApp.swift */,
+				AE3C23DC28E743BD00A68693 /* BreedsView.swift */,
 				AE3C23B128E736B000A68693 /* ContentView.swift */,
+				AE4FF6E528E9F7E100704B7F /* DogsView.swift */,
+				AE3C23DA28E73D4A00A68693 /* RandomView.swift */,
 				AE3C23B328E736B100A68693 /* Assets.xcassets */,
 				AE3C23B528E736B100A68693 /* Dogs.entitlements */,
 				AE3C23B628E736B100A68693 /* Preview Content */,
+				AE4FF6DF28E9E71400704B7F /* AsyncLoadingPhase.swift */,
+				AE4FF6E128E9EA5900704B7F /* ImagesGrid.swift */,
+				AE4FF6E728EA0AE400704B7F /* GPSView.swift */,
+				AE4FF6E928EA111800704B7F /* LocationManager.swift */,
 			);
 			path = Dogs;
 			sourceTree = "<group>";
@@ -145,6 +175,11 @@
 			dependencies = (
 			);
 			name = Dogs;
+			packageProductDependencies = (
+				AE4FF6D928E9E45300704B7F /* Collections */,
+				AE4FF6DB28E9E45300704B7F /* DequeModule */,
+				AE4FF6DD28E9E45300704B7F /* OrderedCollections */,
+			);
 			productName = Dogs;
 			productReference = AE3C23AC28E736B000A68693 /* Dogs.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +252,9 @@
 				Base,
 			);
 			mainGroup = AE3C23A328E736B000A68693;
+			packageReferences = (
+				AE4FF6D828E9E45300704B7F /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = AE3C23AD28E736B000A68693 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,6 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3C23DD28E743BD00A68693 /* BreedsView.swift in Sources */,
+				AE4FF6E628E9F7E100704B7F /* DogsView.swift in Sources */,
+				AE4FF6EA28EA111800704B7F /* LocationManager.swift in Sources */,
+				AE3C23DB28E73D4A00A68693 /* RandomView.swift in Sources */,
+				AE4FF6E828EA0AE400704B7F /* GPSView.swift in Sources */,
+				AE4FF6D728E98DD400704B7F /* DogsApi.swift in Sources */,
+				AE4FF6E228E9EA5900704B7F /* ImagesGrid.swift in Sources */,
+				AE4FF6E028E9E71400704B7F /* AsyncLoadingPhase.swift in Sources */,
 				AE3C23B228E736B000A68693 /* ContentView.swift in Sources */,
 				AE3C23B028E736B000A68693 /* DogsApp.swift in Sources */,
 			);
@@ -419,6 +465,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = Diocnae;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,6 +504,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = Diocnae;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -612,6 +660,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE4FF6D828E9E45300704B7F /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE4FF6D928E9E45300704B7F /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4FF6D828E9E45300704B7F /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		AE4FF6DB28E9E45300704B7F /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4FF6D828E9E45300704B7F /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		AE4FF6DD28E9E45300704B7F /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4FF6D828E9E45300704B7F /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AE3C23A428E736B000A68693 /* Project object */;
 }
